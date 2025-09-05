@@ -1,7 +1,9 @@
 import java.util.Scanner;
+import java.io.File;
+import java.io.FileNotFoundException;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws  FileNotFoundException {
         System.out.println("What's your name?");
         Scanner s = new Scanner(System.in);
 
